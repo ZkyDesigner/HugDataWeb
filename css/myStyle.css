@@ -1,0 +1,78 @@
+*{
+	/* font-family: 微軟正黑體; */
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight: 900;
+}
+#wrapper{
+	overflow-x: hidden;
+}
+.navbar{
+	/* overflow: hidden; */
+}
+.modal-open {
+	/* padding-right: 0px !important; */
+	padding-left: 0px !important;
+}
+.myParagraph{
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+.myWrapper{
+	min-height: 90vh;
+}
+.myborder{
+	border: 1px solid;
+}
+/* logo 
+======================================== */
+.myNavbar{
+	position: relative;
+	display: block;
+	width: 225px;
+	height: 50px
+	border: 1px solid white;
+}
+.myLogo{
+	width: 160px;
+	position: absolute;
+	top: 5px;
+	left: 15px;
+}
+/* table
+======================================== */
+.white{
+	color: white;
+}
+.blue, .green, .red{
+	font-weight: 500;
+}
+.blue{
+	color: #036eb8;
+}
+.green{
+	color: #22ac38;
+}
+.red{
+	color: #e83828;
+}
+/* myBorder
+======================================== */
+.myBorder{
+	border: 1px solid #dcdddd;
+	border-radius: 5px;
+	box-shadow: 5px 5px 8px #c9caca;
+	background-color: rgba(252, 255, 255, 1)
+}
+/* mySRV-Detail
+======================================== */
+.mySRV-Detail{
+	width: 320px;
+	height: auto;
+}
+/* myTable
+======================================== */
+.myPadding{
+	padding: 0px;
+}

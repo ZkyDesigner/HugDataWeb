@@ -1,0 +1,33 @@
+/* login
+======================================== */
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	width: 100vw;
+	height: 100vh;
+	background-image: url('../images/loginBG.png') ;
+}
+
+#wrap{
+	width: 100%;
+	height: 100%;
+	margin-top: 0;
+}
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.login-box{
+	width: 320px;
+	background-color:rgba(250, 250, 250, .7);
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 4px 6px 8px rgba(50, 50, 50, .3);
+}
+.login-box img{
+	width: 230px;
+	margin-bottom: 10px;
+}
